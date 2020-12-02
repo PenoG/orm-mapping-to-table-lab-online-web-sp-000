@@ -1,3 +1,5 @@
+require 'sqlite3'
+
 class Student
   
   attr_reader :name, :grade, :id
@@ -9,6 +11,6 @@ class Student
   end
   
   def self.create_table
-    
+    sql =
   
 end
