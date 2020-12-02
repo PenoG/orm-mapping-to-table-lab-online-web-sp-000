@@ -16,7 +16,7 @@ class Student
         id INTEGER PRIMARY KEY,
         name TEXT,
         album TEXT
-      
       )
+      SQL
   
 end
